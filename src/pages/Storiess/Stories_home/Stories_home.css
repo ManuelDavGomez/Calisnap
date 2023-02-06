@@ -1,0 +1,122 @@
+/* container general */
+.hero_container1 {
+    width: 100%;
+    height: 629px;
+    background-color: black;
+    color: white;
+  }
+  
+  /* container de la imagen */
+  .img_container1 {
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* tamaño de la imagen del hero */
+  .img_container1 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /*container del text*/
+  .hero_text1{
+      padding: 20px 20px 10px 30px;
+      width: 100%;
+  }
+  
+  /* estilos del parrafo del hero */
+  .hero_paragraph1{
+      font-size: 16px;
+      letter-spacing: 1px;
+      color: gray;
+      text-align: left;
+  }
+  
+  /* estilos del boton */
+  .hero_btn1{
+      border: none;
+      color: white;
+      background-color: black;
+      font-size: 16px;
+      letter-spacing: 3px;
+  }
+
+@media (min-width:640px) {
+  .hero_container1{
+    height: 570px;
+  }
+}
+
+@media (min-width:768px) {
+  .img_container1{
+    height: 340px;
+  }
+
+}
+
+@media (min-width:800px) {
+  .hero_container1{
+    height: 620px;
+  }
+
+  .hero_text1{
+    padding-top: 40px;
+  }
+}
+
+@media (min-width:1024px) {
+  .hero_container1{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+  }
+
+  .img_container1{
+    height: 100%;
+    width: 1200px;
+  }
+
+  .hero_text1{
+    margin-top: 70px;
+  }
+
+  .hero_paragraph1{
+    margin-top: 20px;
+  }
+}
+
+@media (min-width:1140px) {
+  .hero_container1{
+    height: 505px;
+  }
+
+  .hero_text1{
+    margin-top: 100px;
+  }
+}
+
+@media (min-width:2048px) {
+  .hero_container1{
+    height: 700px;
+  }
+
+  .img_container1{
+    width: 2000px;
+  }
+
+  .hero_text1{
+    margin-top: 120px;
+  }
+
+  .hero_title1{
+    font-size: 70px;
+  }
+
+  .hero_paragraph1{
+    font-size: 30px;
+  }
+
+  .hero_btn1{
+    font-size: 30px;
+  }
+}

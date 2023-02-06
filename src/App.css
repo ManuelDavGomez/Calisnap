@@ -1,0 +1,11 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+}
+

@@ -1,0 +1,7 @@
+.features_container {
+  position: relative;
+  top: 93px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column; 
+}

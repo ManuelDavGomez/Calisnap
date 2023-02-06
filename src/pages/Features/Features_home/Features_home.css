@@ -1,0 +1,99 @@
+/* container general */
+.hero_container2 {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color: white;
+  }
+  
+  /* container de la imagen */
+  .img_container2 {
+    height: 50%;
+  }
+  
+  /* tamaño de la imagen del hero */
+  .img_container2 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /*container del text*/
+  .hero_text2{
+      padding: 20px 20px 10px 30px;
+      width: 100%;
+  }
+  
+  /* estilos del parrafo del hero */
+  .hero_paragraph2{
+      font-size: 16px;
+      letter-spacing: 1px;
+      color: gray;
+      text-align: left;
+  }
+
+@media (min-width:640px) {
+  .hero_container2{
+    height: 500px;
+  }
+
+  .img_container2{
+    height: 55%;
+  }
+}
+
+@media (min-width:768px) {
+  .hero_container2{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 450px;
+  }
+
+  .img_container2{
+    width: 1000px;
+    height: 100%;
+  }
+
+  .hero_title2{
+    margin-top: 70px;
+    margin-bottom: 25px;
+  }
+
+  .hero_paragraph2{
+    text-align: center;
+  }
+}
+
+@media (min-width:1024px){
+  .hero_title2{
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .img_container2{
+    width: 1400px;
+  }
+}
+
+@media (min-width:1140px) {
+  .hero_container2{
+    height: 505px;
+  }
+
+  .hero_title2{
+    margin-top: 130px;
+  }
+}
+
+@media (min-width:2048px) {
+  .hero_container2{
+    height: 600px;
+  }
+
+  .hero_container2 img{
+    width: 1200px;
+  }
+
+  .hero_paragraph2{
+    font-size: 28px;
+  }
+}

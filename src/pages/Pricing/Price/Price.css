@@ -1,0 +1,140 @@
+.price_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.prices_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 70px auto 70px auto;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.color_container{
+    background-color: black;
+    border-top: 10px solid blue;
+}
+
+.price_title{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.color_title{
+    color: white;
+}
+
+.price_text{
+    font-size: 16px;
+    padding: 0px 20px;
+    color: gray;
+    text-align: center;
+}
+
+.prices{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.color_prices{
+    color: white;
+}
+
+.price_fecha{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 25px;
+}
+
+.features_lists{
+    color: black;
+    font-size: 16px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.color_lists{
+    color: white;
+}
+
+.price_btn{
+    margin: 10px auto 20px auto;
+    width: 190px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+.color_btn{
+    background-color: white;
+    color: black;
+}
+
+@media (min-width:640px) {
+    .prices_container{
+        width: 65%;
+    }
+}
+
+@media (min-width:768px) {
+    .prices_container{
+        width: 55%;
+    }
+}
+
+@media (min-width:1024px) {
+    .prices_container{
+        width: 45%;
+    }
+}
+
+@media (min-width:1152px) {
+    .price_container{
+        flex-direction: row;
+    }
+
+    .prices_container{
+        width: 27%;
+    }
+}
+
+@media (min-width:2048px) {
+    .price_title{
+        font-size: 50px;
+    }
+
+    .price_text{
+        font-size: 28px;
+    }
+
+    .prices{
+        font-size: 70px;
+    }
+
+    .price_fecha{
+        font-size: 25px;
+    }
+
+    .features_lists{
+        font-size: 28px;
+    }
+
+    .price_btn{
+        font-size: 25px;
+    }
+}
